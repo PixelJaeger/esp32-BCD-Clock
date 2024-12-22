@@ -10,18 +10,18 @@ Note: While it works with an USB-Cable plugged into a computer/raspberry/laptop 
 ### notes on main.py <br>
 Don't use this one if you want a pure NTP or a pure DCF solution. Until i can fix my local problem with the receiving of the DCF signal it uses 
 NTP a a method of getting the current time. It still contains code for DCF-Receving. It's a garbled mess at the moment but still works nonetheless. <br>
-### content of this repo
-\- DCF-Version folder
-\-- DCF_BCD.py
-\-- dcf2rtc.py
-\-- boot.py
-\- NTP-Version folder
-\-- NTP_BCD.py
-\-- boot.py
-\- Test-Version
-\- main.py
-\- boot.py
-\- dcf2rtc.py
+### content of this repo <br>
+DCF-Version folder <br>
+\- DCF_BCD.py <br>
+\- dcf2rtc.py <br>
+\- boot.py <br> <br>
+NTP-Version folder <br>
+\- NTP_BCD.py <br>
+\- boot.py <br> <br>
+Test-Version <br>
+\- main.py <br>
+\- boot.py <br>
+\- dcf2rtc.py <br>
 
 
 ### Usage: <br>
