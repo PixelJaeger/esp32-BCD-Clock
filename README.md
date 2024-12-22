@@ -1,3 +1,4 @@
+![1](/project%20images/20241222_091254.jpg)
 # BCD-Clock <br>
 Code for a Binary Coded Decimal Clock that gets TimeData via DCF OR NTP for an ESP32 (should also work with an ESP8266). <br>
 ## Hardware used: <br>
@@ -9,7 +10,7 @@ Code for a Binary Coded Decimal Clock that gets TimeData via DCF OR NTP for an E
 Note: While it works with an USB-Cable plugged into a computer/raspberry/laptop keep in mind: more LED = more power needed <br>
 ### notes on main.py <br>
 Don't use this one if you want a pure NTP or a pure DCF solution. Until i can fix my local problem with the receiving of the DCF signal it uses 
-NTP a a method of getting the current time. It still contains code for DCF-Receving. It's a garbled mess at the moment but still works nonetheless. <br>
+NTP as a method of getting the current time. It still contains code for DCF-Receving. It's a garbled mess at the moment but still works nonetheless. <br>
 ### content of this repo <br>
 DCF-Version folder <br>
 \- DCF_BCD.py <br>
@@ -36,6 +37,3 @@ Reconnect your Clock to the power source of your liking.<br>
 
 **Notes:** <br>
 It should be noted that receiving a valid DCF77 Signal is an arduous task at best. It does not magicall work better if you put the recevier near a window. There is a reason why i wrote and included the NTP Version.
-
-![1](https://github.com/PixelJaeger/esp32-BCD-Clock/blob/main/project%20images/20241222_091254.jpg)
-
