@@ -36,3 +36,6 @@ Reconnect your Clock to the power source of your liking.<br>
 
 **Notes:** <br>
 It should be noted that receiving a valid DCF77 Signal is an arduous task at best. It does not magicall work better if you put the recevier near a window. There is a reason why i wrote and included the NTP Version.
+
+![1](https://github.com/PixelJaeger/esp32-BCD-Clock/blob/main/project%20images/20241222_091254.jpg)
+
