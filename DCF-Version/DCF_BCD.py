@@ -3,8 +3,8 @@ import dcf2rtc
 from machine import Pin, Signal, RTC
 
 # WLAN Name und Passwort
-ssid = 'Nopedinger'
-password = 'AlWu12031984sv.wrech'
+ssid = 'ssid here'
+password = 'password here'
 # RGB für Stunden-LEDs
 h_r=0
 h_g=0
